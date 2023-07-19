@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap');
+
+
+body {
+    font-family: 'Nothing You Could Do', cursive;
+    text-align: center;
+}
+
+.App {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.App > * {
+    flex: 1;
+}
+
+.card--creature {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2vw 20vw;
+}
+
+.card--creature:hover {
+    box-shadow: 0 16px 16px 0 rgba(0, 0, 0, 0.4)
+}
+
+img {
+    height: 50vh;
+    width: 50vw;
+    object-fit: cover;
+}
